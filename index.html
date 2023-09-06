@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Apila bloques con Three.js y Cannon.js</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div id="instructions">
+    <div class="content">
+      <h1>Apilatronico</h1>
+      <p>Apila los bloques uno encima del otro</p>
+      <p>Haz clic o presiona la barra espaciadora cuando un bloque esté encima de la pila. ¿Puedes alcanzar los bloques
+        de color azul?</p>
+      <p>Haz clic o presiona la barra espaciadora para comenzar el juego </p>
+    </div>
+  </div>
+  <div id="results">
+    <div class="content">
+      <p>No has acertado con la posición</p>
+      <p>Vuelve a intentarlo pulsando R</p>
+    </div>
+  </div>
+  <div id="score">0</div>
+
+
+  <a id="skillshare" target="_blank" href="https://entreunosyceros.net/about/">
+    ENTREUNOSYCEROS
+  </a>
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
